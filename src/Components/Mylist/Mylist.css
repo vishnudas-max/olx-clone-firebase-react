@@ -1,0 +1,31 @@
+.card{
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    padding:10px ;
+    
+}
+
+.image{
+    
+    max-width: 300px;
+    
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.lists{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+.lists::-webkit-scrollbar{
+    display: none;
+}
